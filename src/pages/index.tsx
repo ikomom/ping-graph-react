@@ -5,6 +5,7 @@ import Graphin, {
   GraphinContext,
   GraphinData,
 } from '@antv/graphin';
+import './image-node';
 import logo from '@/assets/logo.png';
 
 const { FitView, BrushSelect, DragCanvas, ClickSelect, Hoverable } =
@@ -12,6 +13,15 @@ const { FitView, BrushSelect, DragCanvas, ClickSelect, Hoverable } =
 
 const data: GraphinData = {
   nodes: [
+    {
+      id: 'node4',
+      label: '自定义节点',
+      x: 222,
+      y: 190,
+      type: 'image-node',
+      size: 80,
+      img: logo,
+    },
     {
       id: 'node3',
       label: '网图',
