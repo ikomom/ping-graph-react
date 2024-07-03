@@ -7,11 +7,23 @@ import Graphin, {
 } from '@antv/graphin';
 import './image-node';
 import logo from '@/assets/logo.png';
+import {
+  MapContainer,
+  Marker,
+  Popup,
+  TileLayer,
+} from 'react-leaflet';
+import { pick } from 'lodash-es';
 
-const { FitView, BrushSelect, DragCanvas, ClickSelect, Hoverable } =
-  Behaviors;
+const {
+  FitView,
+  BrushSelect,
+  DragCanvas,
+  ClickSelect,
+  Hoverable,
+} = Behaviors;
 
-const data: GraphinData = {
+const data = {
   nodes: [
     {
       id: 'node4',
@@ -96,9 +108,34 @@ const layout = {
 console.log('network', data);
 
 export default () => {
-  const graphinRef = React.createRef<Graphin>();
+  const graphinRef = React.createRef();
+  useEffect(() => {
+    const a = 1 ?? 0;
+    console.log(
+      'test',
+      graphinRef.current?.data,
+      a,
+      pick(graphinRef.current, 'test'),
+    );
+  }, []);
   return (
     <div style={{ border: '1px solid #ccc' }}>
+      <MapContainer
+        center={[51.505, -0.09]}
+        zoom={13}
+        scrollWheelZoom={false}
+        style={{ height: 300, width: '100%' }}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={[51.505, -0.09]}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
       <Graphin
         ref={graphinRef}
         // theme={{ mode: 'dark' }}
@@ -111,18 +148,16 @@ export default () => {
         defaultNode={{
           type: 'rect',
         }}
-        nodeStateStyles={
-          {
-            status: {
-              highlight: {
-                keyshape: {
-                  stroke: 'red',
-                  strokeOpacity: 1,
-                },
+        nodeStateStyles={{
+          status: {
+            highlight: {
+              keyshape: {
+                stroke: 'red',
+                strokeOpacity: 1,
               },
             },
-          } as any
-        }
+          },
+        }}
         edgeStateStyles={{
           status: {
             hover: {

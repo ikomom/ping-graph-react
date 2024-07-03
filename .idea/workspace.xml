@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98edbb8e-b5eb-4b55-801f-94ac9411f6a3" name="更改" comment="feat">
-      <change afterPath="$PROJECT_DIR$/src/pages/image-node.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ping-graph-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ping-graph-react.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/image-node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/image-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ikomom"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ikomom&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ikomom/ping-graph-react.git",
-    "accountId": "f99cb07a-ef6f-457d-8dc3-326cc8a3e920"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ikomom/ping-graph-react.git&quot;,
+    &quot;accountId&quot;: &quot;f99cb07a-ef6f-457d-8dc3-326cc8a3e920&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/pages/async-test.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,7 +73,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Project/web/work/dianXin/ping-graph-react/src/pages",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Project/web/work/dianXin/ping-graph-react/public/lib",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,10 +91,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\lib" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\shape" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\util" />
     </key>
   </component>
@@ -100,7 +120,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -125,7 +145,10 @@
       <workItem from="1713004640859" duration="805000" />
       <workItem from="1713006222939" duration="2126000" />
       <workItem from="1713018956573" duration="1837000" />
-      <workItem from="1713278176124" duration="8595000" />
+      <workItem from="1713278176124" duration="9049000" />
+      <workItem from="1713539191677" duration="1626000" />
+      <workItem from="1714049222659" duration="673000" />
+      <workItem from="1720012193076" duration="7773000" />
     </task>
     <task id="LOCAL-00001" summary="feat">
       <option name="closed" value="true" />
@@ -135,15 +158,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713535117895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat">
+      <option name="closed" value="true" />
+      <created>1713538665831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713538665831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="additionalRoots">
-      <list>
-        <option value="$PROJECT_DIR$/src/.umi" />
-      </list>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
