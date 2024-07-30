@@ -11,6 +11,16 @@ export default defineConfig({
       component: '@/layouts/index',
       routes: [
         { exact: true, path: '/', component: '@/pages/index' },
+        {
+          exact: true,
+          path: '/chat',
+          component: '@/pages/chat/index',
+        },
+        {
+          exact: true,
+          path: '/cesium',
+          component: '@/pages/cesium/index',
+        },
         // { exact: true, path: '/users', component: '@/pages/users' },
       ],
     },
@@ -21,4 +31,11 @@ export default defineConfig({
     '@babel/plugin-proposal-nullish-coalescing-operator',
   ],
   fastRefresh: {},
+  proxy: {
+    '/stomp-ws': {
+      target: 'http://localhost:8080',
+      changeOrigin: true,
+      pathRewrite: { '^/stomp-ws': '' },
+    },
+  },
 });

@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98edbb8e-b5eb-4b55-801f-94ac9411f6a3" name="更改" comment="feat">
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/layers-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/layers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-icon-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/images/marker-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet-src.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/leaflet/leaflet.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cesium/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/chat/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/chat/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ping-graph-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ping-graph-react.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/image-node.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/image-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules.7z" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,28 +57,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Project/web/work/dianXin/ping-graph-react/public/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.start.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Project\\web\\work\\dianXin\\ping-graph-react\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "D:\\Project\\web\\work\\dianXin\\ping-graph-react\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/work/dianXin/ping-graph-react/src/pages/chat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Project\\web\\work\\dianXin\\ping-graph-react\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Project\\web\\work\\dianXin\\ping-graph-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\chat" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\lib" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\shape" />
@@ -100,7 +90,17 @@
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\util" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -114,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,11 @@
       <workItem from="1713278176124" duration="9049000" />
       <workItem from="1713539191677" duration="1626000" />
       <workItem from="1714049222659" duration="673000" />
-      <workItem from="1720012193076" duration="7773000" />
+      <workItem from="1720012193076" duration="8364000" />
+      <workItem from="1720312405020" duration="41000" />
+      <workItem from="1720323589888" duration="228000" />
+      <workItem from="1721879517760" duration="4152000" />
+      <workItem from="1722341252417" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="feat">
       <option name="closed" value="true" />
@@ -166,11 +171,24 @@
       <option name="project" value="LOCAL" />
       <updated>1713538665831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat">
+      <option name="closed" value="true" />
+      <created>1720020208223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720020208223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/src/.umi" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -7,7 +7,6 @@ export default function Layout({
 }) {
   return (
     <div>
-      测试1
       <div>{children}</div>
     </div>
   );
