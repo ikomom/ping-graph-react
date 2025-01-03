@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98edbb8e-b5eb-4b55-801f-94ac9411f6a3" name="更改" comment="feat">
-      <change afterPath="$PROJECT_DIR$/src/pages/cesium/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chat/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/chat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logobg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mid_top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ring0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/map/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ping-graph-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ping-graph-react.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules.7z" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules.7z" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/document.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/document.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,10 +61,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/work/dianXin/ping-graph-react/src/pages/chat&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/work/dianXin/ping-graph-react/public/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -80,6 +84,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\images" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\chat" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\lib" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages" />
@@ -121,7 +126,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -154,6 +159,9 @@
       <workItem from="1720323589888" duration="228000" />
       <workItem from="1721879517760" duration="4152000" />
       <workItem from="1722341252417" duration="358000" />
+      <workItem from="1733575589777" duration="18512000" />
+      <workItem from="1733922111798" duration="318000" />
+      <workItem from="1735823381016" duration="1693000" />
     </task>
     <task id="LOCAL-00001" summary="feat">
       <option name="closed" value="true" />

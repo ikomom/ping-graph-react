@@ -25,6 +25,7 @@
     "@antv/graphin": "^2.7.27",
     "@antv/graphin-components": "^2.4.1",
     "@antv/graphin-icons": "^1.0.0",
+    "@tweenjs/tween.js": "^25.0.0",
     "ahooks": "^3.8.0",
     "antd": "4.24.16",
     "axios": "^1.7.2",
