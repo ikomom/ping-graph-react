@@ -5,27 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98edbb8e-b5eb-4b55-801f-94ac9411f6a3" name="更改" comment="feat">
-      <change afterPath="$PROJECT_DIR$/public/circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logobg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mid_top_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ring0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/map/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ping-graph-react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ping-graph-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/demo/clip-path/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/demo/clip-path/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/map/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/map/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -66,7 +66,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/work/dianXin/ping-graph-react/public/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/demo/web/basic/soybean-admin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -91,6 +91,7 @@
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\shape" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\demo\clip-path" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\util" />
     </key>
@@ -161,7 +162,8 @@
       <workItem from="1722341252417" duration="358000" />
       <workItem from="1733575589777" duration="18512000" />
       <workItem from="1733922111798" duration="318000" />
-      <workItem from="1735823381016" duration="1693000" />
+      <workItem from="1735823381016" duration="2359000" />
+      <workItem from="1736514805789" duration="3662000" />
     </task>
     <task id="LOCAL-00001" summary="feat">
       <option name="closed" value="true" />
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720020208223</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat">
+      <option name="closed" value="true" />
+      <created>1735914722900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735914722900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

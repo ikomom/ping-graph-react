@@ -15,6 +15,7 @@ import tween from '@tweenjs/tween.js';
 import { Button, Col, Row, Space } from 'antd';
 import { PauseOutlined, PlaySquareOutlined } from '@ant-design/icons';
 import { generateUUID } from 'three/src/math/MathUtils';
+import ClipPath from '@/pages/demo/clip-path';
 
 const generateTestData = (numPoints) => {
   let path = [];
@@ -228,6 +229,7 @@ export default () => {
       <Space style={{ margin: 2 }}>
         <Button onClick={handleStart}>开始</Button>
         <Button onClick={handlePause}>暂停</Button>
+        <ClipPath />
       </Space>
       <Row>
         <Col span={6}>
@@ -269,6 +271,10 @@ export default () => {
             center={[24.505, 120]}
             zoom={7}
             scrollWheelZoom
+            maxBounds={[
+              [-90, -180],
+              [90, 180],
+            ]}
             style={{ height: 650, width: '100%' }}
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
