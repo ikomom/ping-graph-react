@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98edbb8e-b5eb-4b55-801f-94ac9411f6a3" name="更改" comment="feat">
-      <change afterPath="$PROJECT_DIR$/src/pages/demo/clip-path/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/demo/clip-path/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/audio/bg.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lottie/cow/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lottie/like/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lottie/work/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/audioControl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/custom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/lottieControl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/mock.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/timeline/player.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/map/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/map/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +76,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/demo/web/basic/soybean-admin&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/web/work/dianXin/ping-graph-react/public/audio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -84,16 +94,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\audio" />
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\lottie" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\images" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\chat" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\public\lib" />
-      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages" />
-      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\shape" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\demo\clip-path" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src" />
       <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\util" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\Project\web\work\dianXin\ping-graph-react\src\pages\timeline\player.tsx" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -127,7 +140,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -163,7 +176,10 @@
       <workItem from="1733575589777" duration="18512000" />
       <workItem from="1733922111798" duration="318000" />
       <workItem from="1735823381016" duration="2359000" />
-      <workItem from="1736514805789" duration="3662000" />
+      <workItem from="1736514805789" duration="9817000" />
+      <workItem from="1738295631260" duration="16000" />
+      <workItem from="1740831256350" duration="619000" />
+      <workItem from="1742110317701" duration="12027000" />
     </task>
     <task id="LOCAL-00001" summary="feat">
       <option name="closed" value="true" />
@@ -197,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735914722900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat">
+      <option name="closed" value="true" />
+      <created>1736521215177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736521215177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

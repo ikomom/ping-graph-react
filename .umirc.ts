@@ -21,6 +21,11 @@ export default defineConfig({
           path: '/cesium',
           component: '@/pages/cesium/index',
         },
+        {
+          exact: true,
+          path: '/timeline',
+          component: '@/pages/timeline/index',
+        },
         // { exact: true, path: '/users', component: '@/pages/users' },
       ],
     },
